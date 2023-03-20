@@ -12,6 +12,7 @@ public class Demo extends JFrame {
     private JButton button1;
     private JTextField textFieldNazevDeskovky;
     private JTextArea textAreaSource;
+    private JScrollPane scrollpane;
 
     private JFileChooser chooser = new JFileChooser(".");
     private File aktualniSoubor;
@@ -52,6 +53,7 @@ public class Demo extends JFrame {
             }
         });
         menu.add(saveAsItem);
+
 
     }
 
